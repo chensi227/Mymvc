@@ -8,7 +8,7 @@ class Controller {
 			header("Location:$url");
 		} else {
 			//直接载入message.html
-			include CUR_VIEW_PATH . "message.html";
+			include CUR_VIEW_PATH . "message.php";
 		}
 		//一定要退出
 		exit();

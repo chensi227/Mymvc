@@ -5,4 +5,8 @@ class IndexController extends Controller {
 	public function indexAction(){
 		echo '欢迎!';
 	}
+	
+	public function aboutAction(){
+	    echo '一个简单的mvc框架!';
+	}
 }

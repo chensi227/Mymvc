@@ -25,7 +25,7 @@ class Framework {
 		define("VIEW_PATH", APP_PATH . 'views' .DS);
 		define("UPLOAD_PATH", PUBLIC_PATH . "uploads" .DS);
 		//获取p、c和a,index.php?p=admin&c=goods&a=insert,GoodsController
-		define('PLATFORM', isset($_GET['p']) ? $_GET['p'] : 'admin' );
+		define('PLATFORM', isset($_GET['p']) ? $_GET['p'] : 'home' );
 		define('CONTROLLER', isset($_GET['c']) ? ucfirst($_GET['c']) : 'Index' );
 		define('ACTION', isset($_GET['a']) ? $_GET['a'] : 'index' );
 		//继续定义当前控制器和视图路径
